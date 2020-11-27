@@ -1,0 +1,21 @@
+.sortingBlock {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: solid 2px black;
+    float: left;
+    z-index: 150;
+}
+
+.clickedSortingBlock {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    margin: 2px;
+    border: solid 2px black;
+    float: left;
+}
+
+#mazeContainer {
+    display: grid;
+}
